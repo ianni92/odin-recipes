@@ -3,9 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Delicious Recipes - Brazilian Signature</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #009739; /* Green */
+            color: #ffdf00; /* Yellow */
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #002776; /* Blue */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ffdf00; /* Yellow */
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .recipe {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #002776; /* Blue */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    
+
+<header>
+    <h1>Delicious Recipes - Brazilian Signature</h1>
+</header>
+
+<nav>
+    <a href="recipes/beans.html">Brazilian Beans</a>
+    <a href="recipes/rice.html">Brazilian Rice</a>
+    <a href="recipes/meatonions.html">Meat with Onions</a>
+    <a href="recipes/chorizo.html">Brazilian Chorizo</a>
+    <a href="recipes/bonus.html">Bonus Recipe</a>
+</nav>
+
+<div class="container" id="home">
+    <div class="recipe">
+        <h2>Welcome to Delicious Recipes!</h2>
+        <p>Explore our curated list of mouth-watering Brazilian recipes perfect for any occasion. Click on the menu above to get started!</p>
+    </div>
+</div>
+
+<div class="container" id="recipe1">
+    <div class="recipe">
+        <h2>Brazilian Beans</h2>
+        <p>A hearty and flavorful dish made with black beans, garlic, and spices, a staple in Brazilian cuisine.</p>
+    </div>
+</div>
+
+<div class="container" id="recipe2">
+    <div class="recipe">
+        <h2>Brazilian Rice</h2>
+        <p>Simple and fluffy white rice, often served alongside beans and other traditional dishes.</p>
+    </div>
+</div>
+
+<div class="container" id="recipe3">
+    <div class="recipe">
+        <h2>Meat with Onions</h2>
+        <p>Tender slices of beef cooked with caramelized onions, perfect for a comforting meal.</p>
+    </div>
+</div>
+
+<div class="container" id="recipe4">
+    <div class="recipe">
+        <h2>Brazilian Chorizo</h2>
+        <p>Spicy and flavorful sausage, grilled to perfection and commonly enjoyed at barbecues.</p>
+    </div>
+</div>
+
+<div class="container" id="recipe5">
+    <div class="recipe">
+        <h2>Bonus Recipe</h2>
+        <p>A surprise Brazilian dish to delight your taste buds!</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Delicious Recipes. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
